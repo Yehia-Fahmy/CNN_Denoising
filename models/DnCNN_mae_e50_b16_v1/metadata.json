@@ -1,0 +1,23 @@
+{
+    "model_name": "DnCNN_mae_e50_b16_v1",
+    "created_at": "2025-04-03T13:12:18.603224",
+    "loss_function": "mae",
+    "epochs": 50,
+    "batch_size": 16,
+    "training_time_seconds": 1184.53,
+    "dataset_info": {
+        "train_size": 9000,
+        "test_size": 1000,
+        "image_shape": [
+            128,
+            128,
+            3
+        ]
+    },
+    "evaluation_metrics": {
+        "mae": 0.024228,
+        "mse": 0.001334,
+        "psnr_avg": 29.058,
+        "ssim_avg": 0.862
+    }
+}
