@@ -1,10 +1,11 @@
 {
     "model_name": "UDnCNN_ssim_mae_e50_b16_v1",
-    "created_at": "2025-04-03T15:29:07.088187",
+    "created_at": "2025-04-03T15:58:51.863904",
     "loss_function": "ssim_mae",
+    "alpha": 0.84,
     "epochs": 50,
     "batch_size": 16,
-    "training_time_seconds": 1379.54,
+    "training_time_seconds": 774.45,
     "dataset_info": {
         "train_size": 9000,
         "test_size": 1000,
@@ -15,9 +16,9 @@
         ]
     },
     "evaluation_metrics": {
-        "mae": 0.024559,
-        "mse": 0.002695,
-        "psnr_avg": 28.781,
-        "ssim_avg": 0.869
+        "mae": 0.024756,
+        "mse": 0.001428,
+        "psnr_avg": 28.777,
+        "ssim_avg": 0.867
     }
 }
