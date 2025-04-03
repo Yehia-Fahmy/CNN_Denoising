@@ -10,7 +10,7 @@ IMAGE_SIZE = (128, 128)
 BLUR_KERNEL = (5, 5)
 NOISE_MEAN = 0
 NOISE_STDDEV = 25
-MAX_IMAGES = 10000
+MAX_IMAGES = 20000
 
 def get_image_paths(directory, max_images=None):
     print(f"📁 Scanning directory: {directory}")
