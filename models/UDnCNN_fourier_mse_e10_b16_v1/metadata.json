@@ -1,0 +1,23 @@
+{
+    "model_name": "UDnCNN_fourier_mse_e10_b16_v1",
+    "created_at": "2025-04-04T15:03:18.637878",
+    "loss_function": "mse",
+    "epochs": 10,
+    "batch_size": 16,
+    "training_time_seconds": 32.41,
+    "dataset_info": {
+        "train_size": 900,
+        "test_size": 100,
+        "image_shape": [
+            128,
+            128,
+            3
+        ]
+    },
+    "evaluation_metrics": {
+        "mae": 107.173492,
+        "mse": 14931.93457,
+        "psnr_avg": -41.462,
+        "ssim_avg": 0.0
+    }
+}
