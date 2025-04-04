@@ -1,23 +1,23 @@
 {
     "model_name": "UDnCNN_fourier_mse_e200_b16_v1",
-    "created_at": "2025-04-04T15:11:04.325070",
+    "created_at": "2025-04-04T15:55:31.415926",
     "loss_function": "mse",
     "epochs": 200,
     "batch_size": 16,
-    "training_time_seconds": 345.93,
+    "training_time_seconds": 1125.92,
     "dataset_info": {
-        "train_size": 900,
-        "test_size": 100,
+        "train_size": 9000,
+        "test_size": 1000,
         "image_shape": [
-            128,
-            128,
+            64,
+            64,
             3
         ]
     },
     "evaluation_metrics": {
-        "mae": 116.055908,
-        "mse": 17365.734375,
-        "psnr_avg": -42.056,
+        "mae": 115.671211,
+        "mse": 17502.439453,
+        "psnr_avg": -42.1,
         "ssim_avg": 0.0
     }
 }
