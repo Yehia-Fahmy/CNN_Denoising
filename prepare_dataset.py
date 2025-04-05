@@ -6,10 +6,10 @@ from concurrent.futures import ProcessPoolExecutor, as_completed
 # === Constants ===
 IMAGE_DIR = "/home/yehia/.cache/kagglehub/datasets/jessicali9530/celeba-dataset/versions/2/img_align_celeba/img_align_celeba"
 NEW_DIR = "/home/yehia/celaba_datasets"
-IMAGE_SIZE = (128, 128)
-BLUR_KERNEL = (5, 5)
+IMAGE_SIZE = (64, 64)
+BLUR_KERNEL = (3, 3)
 NOISE_MEAN = 0
-NOISE_STDDEV = 25
+NOISE_STDDEV = 15
 MAX_IMAGES = 20000
 
 def get_image_paths(directory, max_images=None):
