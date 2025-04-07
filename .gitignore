@@ -1,2 +1,5 @@
 data/
 fft_*
+celeba-dataset.zip
+celaba_datasets
+img_align_celeba/
