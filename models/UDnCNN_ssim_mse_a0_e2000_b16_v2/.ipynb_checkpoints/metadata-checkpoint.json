@@ -1,0 +1,24 @@
+{
+    "model_name": "UDnCNN_ssim_mse_a0_e2000_b16_v2",
+    "created_at": "2025-04-12T23:59:35.034195",
+    "loss_function": "ssim_mse",
+    "alpha": 0,
+    "epochs": 2000,
+    "batch_size": 16,
+    "training_time_seconds": 6082.19,
+    "dataset_info": {
+        "train_size": 22500,
+        "test_size": 2500,
+        "image_shape": [
+            64,
+            64,
+            3
+        ]
+    },
+    "evaluation_metrics": {
+        "mae": 0.035777,
+        "mse": 0.002885,
+        "psnr_avg": 25.623,
+        "ssim_avg": 0.868
+    }
+}
