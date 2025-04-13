@@ -1,0 +1,23 @@
+{
+    "model_name": "UDnCNN_mae_e2000_b16_v2",
+    "created_at": "2025-04-12T23:34:51.206515",
+    "loss_function": "mae",
+    "epochs": 2000,
+    "batch_size": 16,
+    "training_time_seconds": 27028.32,
+    "dataset_info": {
+        "train_size": 22500,
+        "test_size": 2500,
+        "image_shape": [
+            64,
+            64,
+            3
+        ]
+    },
+    "evaluation_metrics": {
+        "mae": 0.027366,
+        "mse": 0.001764,
+        "psnr_avg": 27.867,
+        "ssim_avg": 0.894
+    }
+}
