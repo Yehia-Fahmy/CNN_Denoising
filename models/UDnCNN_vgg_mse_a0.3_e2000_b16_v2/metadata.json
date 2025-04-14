@@ -1,0 +1,24 @@
+{
+    "model_name": "UDnCNN_vgg_mse_a0.3_e2000_b16_v2",
+    "created_at": "2025-04-13T22:58:52.160215",
+    "loss_function": "vgg_mse",
+    "alpha": 0.3,
+    "epochs": 2000,
+    "batch_size": 16,
+    "training_time_seconds": 8182.84,
+    "dataset_info": {
+        "train_size": 22500,
+        "test_size": 2500,
+        "image_shape": [
+            64,
+            64,
+            3
+        ]
+    },
+    "evaluation_metrics": {
+        "mae": 0.040815,
+        "mse": 0.003188,
+        "psnr_avg": 25.129,
+        "ssim_avg": 0.774
+    }
+}
